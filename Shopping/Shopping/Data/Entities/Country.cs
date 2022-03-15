@@ -7,7 +7,7 @@ namespace Shopping.Data.Entities
         public int Id { get; set; }
 
         [Display(Name = "País")]
-        [MaxLength(50, ErrorMessage = "El campo {} debe tener maximo {1} caractéres.")]
+        [MaxLength(50, ErrorMessage = "El campo {0} debe tener maximo {1} caractéres.")]
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
         public string Name { get; set; }
     }
